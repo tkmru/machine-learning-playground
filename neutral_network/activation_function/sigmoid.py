@@ -12,5 +12,7 @@ def sigmoid(x):
 x = np.arange(-5.0, 5.0, 0.1)
 y = sigmoid(x)
 
-plt.plot(x, y)
+plt.plot(x, y, label='sigmoid')
+plt.xlabel('x')
+plt.ylabel('sigmoid(x)')
 plt.show()
